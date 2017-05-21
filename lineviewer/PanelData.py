@@ -1,7 +1,7 @@
 ﻿import os
 import wx
 import numpy as np
-from FileHandler import (ReadEEG, SaveTVA, SaveERP, SaveEpochs, SaveFigures,
+from .FileHandler import (ReadEEG, SaveTVA, SaveERP, SaveEpochs, SaveFigures,
                          SaveVerbose)
 
 

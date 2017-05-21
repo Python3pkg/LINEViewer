@@ -2,7 +2,7 @@ import wx
 import numpy as np
 from os import remove
 from os.path import splitext, exists
-from FileHandler import ReadXYZ
+from .FileHandler import ReadXYZ
 from scipy.signal import butter, filtfilt
 from sklearn.decomposition import PCA
 

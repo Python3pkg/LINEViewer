@@ -2,7 +2,7 @@
 # Copyright (C) 2016 Michael Notter
 # Distributed under the terms of the GNU General Public License (GPL).
 
-from LINEViewer import StartLINEViewer
+from .LINEViewer import StartLINEViewer
 
 # version info for LINEViewer
 __version__ = '0.2.07'

@@ -1,8 +1,8 @@
 ﻿import wx
-import PanelData
-import PanelSpecs
-import PanelVisualize
-from Analysis import Results
+from . import PanelData
+from . import PanelSpecs
+from . import PanelVisualize
+from .Analysis import Results
 from os.path import join, dirname, abspath
 
 

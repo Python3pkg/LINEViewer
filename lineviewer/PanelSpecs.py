@@ -1,7 +1,7 @@
 ﻿import wx
 import numpy as np
 from os.path import dirname
-from FileHandler import ReadEEG
+from .FileHandler import ReadEEG
 
 
 class Specification(wx.Panel):

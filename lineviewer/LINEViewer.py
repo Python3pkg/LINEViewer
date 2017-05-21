@@ -1,5 +1,5 @@
 import wx
-import Interface
+from . import Interface
 from os.path import join, dirname, abspath
 
 """

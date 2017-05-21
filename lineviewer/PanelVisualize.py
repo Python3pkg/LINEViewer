@@ -358,8 +358,8 @@ class ERPSummary(wx.Panel):
         self.tiles = vPlots * hPlots
 
         # Draw the average epochs
-        for k, i in enumerate(range(self.shiftView,
-                                    self.tiles + self.shiftView)):
+        for k, i in enumerate(list(range(self.shiftView,
+                                    self.tiles + self.shiftView))):
             axes = self.figure.add_subplot(vPlots, hPlots, k + 1)
 
             if i < len(Results.avgEpochs):
@@ -668,7 +668,7 @@ class EpochsDetail(wx.Panel):
         self.tiles = vPlots * hPlots
 
         # Draw the epochs
-        for k, i in enumerate(range(shiftView, self.tiles + shiftView)):
+        for k, i in enumerate(list(range(shiftView, self.tiles + shiftView))):
             axes = self.figure.add_subplot(vPlots, hPlots, k + 1)
             if i < len(self.id2Show):
                 epochID = self.id2Show[i]
